@@ -1,20 +1,30 @@
-# ChatGPT-Discord
-Java-powered ChatGPT Discord Bot.
+# ChatGPT-Discord  
+A Java-powered ChatGPT bot for Discord.  
 
-using Oracle OpenJDK Java 17.0.14 with Gradle (Kotlin DSL)
+## Requirements  
+- **Java 17 (Oracle OpenJDK 17.0.14)**  
+- **Gradle (Kotlin DSL)**  
 
-1. Enter your OpenAI API Key and Discord Bot Key. (Environment Variable)
-2. Go to line 49. enter the channel ID where ChatGPT will be used.
-3. You're all Set!
+## Setup Instructions  
 
---How to set the Environment Variables--
+1. Set your **OpenAI API Key** and **Discord Bot Token** as environment variables.  
+2. Open the source code and go to **line 49**, then enter the **channel ID** where ChatGPT will be used.  
+3. You're all set! 🚀  
 
-Open CMD with admin permission.
+---
 
-in Windows,
-  set DISCORD_BOT_TOKEN=your_discord_token_here
-  set OPENAI_API_KEY=your_openai_api_key_here
+## Setting Environment Variables  
 
-in Mac/Linux,
-  export DISCORD_BOT_TOKEN=your_discord_token_here
-  export OPENAI_API_KEY=your_openai_api_key_here
+### Windows (CMD with Admin Privileges)  
+```sh
+set DISCORD_BOT_TOKEN=your_discord_token_here
+set OPENAI_API_KEY=your_openai_api_key_here
+```
+
+### Mac/Linux (Terminal)  
+```sh
+export DISCORD_BOT_TOKEN=your_discord_token_here
+export OPENAI_API_KEY=your_openai_api_key_here
+```
+
+Now, your bot is ready to run! 🎉
