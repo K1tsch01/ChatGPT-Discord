@@ -1,4 +1,4 @@
-# ChatGPT-Discord  
+# ChatGPT Discord  
 A Java-powered ChatGPT bot for Discord.  
 
 ## Requirements  
