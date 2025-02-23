@@ -8,7 +8,7 @@ A Java-powered ChatGPT bot for Discord.
 ## Setup Instructions  
 
 1. Set your **OpenAI API Key** and **Discord Bot Token** as environment variables.  
-2. Open the source code and go to **line 51**, then enter the **channel ID** where ChatGPT will be used.  
+2. Open the source code and go to **line 222, 223**, then enter the **channel ID** where ChatGPT will be used.
 3. You're all set! 🚀  
 
 ---
