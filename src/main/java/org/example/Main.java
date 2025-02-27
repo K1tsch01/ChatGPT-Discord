@@ -94,7 +94,6 @@ public class Main extends ListenerAdapter {
             "..c",
             "..memory",
             ".. <message>",
-            "..mcga",
             "..help"
     };
 
@@ -171,10 +170,6 @@ public class Main extends ListenerAdapter {
         if (content.startsWith("..")) {
             String command = cmdInput[0]; // Extract the command part
             switch (command) {
-                case "..mcga":
-                    event.getMessage().reply("# MAKE CACTUS GREAT AGAIN!").queue();
-                    break;
-
                 case "..status":
                     event.getMessage().reply("-# Current memory capacity: " + MAX_HISTORY).queue();
                     break;
@@ -200,7 +195,6 @@ public class Main extends ListenerAdapter {
                             "..c : Check current system message\n" +
                             "..memory <memory> : Set maximum conversation history (Default: 4, Maximum: 8)\n" +
                             ".. <message> : Unrecognized ChatGPT message\n" +
-                            "..mcga : Worship Cactus\n" +
                             "```").queue();
                     break;
 
