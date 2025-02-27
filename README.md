@@ -38,10 +38,10 @@ The bot supports various commands for interaction and configuration:
 | Command | Description |
 |---------|-------------|
 | `..c` | Check the current system message. |
-| `..edit <set/add> <내용>` | Add or modify the system message. |
+| `..edit <set/add> <SystemMessage>` | Add or modify the system message. |
 | `..reset` | Reset the system message to default. |
 | `..memory` | Set the maximum conversation history ChatGPT can remember. |
-| `.. <메시지>` | Send a message that ChatGPT cannot read. |
+| `.. <message>` | Send a message that ChatGPT cannot read. |
 | `..help` | Show command descriptions and usage. |
 
 ---
